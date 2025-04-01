@@ -1,0 +1,1 @@
+Debe abrir primero la pagina por nombre INICIO, y esa lo llevara a la que dice INDEX

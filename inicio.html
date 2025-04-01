@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina1</title>
+  <style>
+    
+    .number1{
+    animation: fadeIn 5s ease;
+}
+
+    @keyframes fadeIn {
+    0% { opacity: 0;}
+
+    10% { opacity: 1;}
+}
+
+    .logo {
+    position: relative;
+    display: flex;
+    border: 0;
+    margin-left: 160vh;
+    margin-top: -107vh;
+    width: 400px;
+    height: 400px;
+}
+
+    .mapa {
+    position: relative;
+    display: block;
+    border: 0;
+    margin-left: 65vh;
+    margin-top: -13vh;
+    width: 600px;
+    height: 600px;
+}
+
+    .texto1 {
+    border: 0;
+    position: absolute;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 14%;
+    left: 50%;
+}
+
+    .texto2 {
+    border: 0;
+    position: absolute;
+    font-size: 60px;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 7%;
+    left: 50%;
+}
+
+
+    .back {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 2000px;
+    height: 920px;
+}
+
+    .texto3 {
+      border: 0;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      top: 88%;
+      left: 50%;
+      font-size: 50px;
+      color: #00DDFF;
+      animation: breathingEffect 2s infinite;
+    }
+
+    @keyframes breathingEffect {
+        0% { opacity: 0.2;}
+        50% { opacity: 1;}
+        100% { opacity: 0.2;}
+    }
+  </style>
+</head>
+<body>
+    <img class="back" src="./images/ultrafondo.png">
+    <div class="number1" id="principal">
+        <h1 class="texto2">LA TORTUGA</h1>
+        <h2 class="texto1">ESTACIONAMIENTO</h2>
+        <img class="logo" src="images/LA TORTUGA.png">
+        <img class="mapa" src="images/mapa.png">
+        <h1 class="texto3">Haga clic en la pantalla para continuar</h1>
+    </div>
+
+  <script>
+    document.addEventListener('click', function() {
+    window.location.href = 'index.html';
+    });
+  </script>
+
+</body>
+</html>

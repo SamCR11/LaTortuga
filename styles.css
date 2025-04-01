@@ -1,0 +1,241 @@
+@keyframes fadeIn {
+    0% { opacity: 0;}
+
+    10% { opacity: 1;}
+}
+
+.back {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 2000px;
+    height: 920px;
+}
+
+button span {
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 40px;
+    transition: .3s;
+}
+
+button:hover span {
+    background: none;
+}
+
+button:active {
+    transform: scale(0.9);
+    transition: .3s;
+}
+
+.anima{
+    display: flex;
+    animation: fadeIn 5s ease;
+}
+
+.texto3 {
+    border: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 5%;
+    left: 50%;
+    font-size: 70px;
+}
+
+.texto4 {
+    border: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 12%;
+    left: 50%;
+    font-size: 70px;
+}
+
+.logo2 {
+    position: relative;
+    display: block;
+    border: 0;
+    margin-left: 15vh;
+    margin-top: -87vh;
+    width: 900px;
+    height: 900px;
+    animation: movet 5s;
+}
+
+@keyframes movet {
+    0% {right: -300px;}
+    50% {right: 0px;}
+}
+
+.button1 {
+    position: absolute;
+    margin: 0 auto;
+    border: 0;
+    background-image: linear-gradient(150deg, #dd0000, #ff6737, #00DDFF);
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    font-size: 70px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: -55vh;
+    margin-left: 105vh;
+    animation: move 3s;
+}
+
+.button2 {
+    position: absolute;
+    margin: 0 auto;
+    border: 0;
+    background-image: linear-gradient(150deg, #dd0000, #ff6737, #00DDFF);
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    font-size: 70px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: -35vh;
+    margin-left: 111vh;
+    animation: move 5s;
+}
+
+@keyframes move {
+    0% {opacity: 0; left: -300px;}
+    25% {opacity: 0; left: -100px;}
+    50% {opacity: 1; left: 8px;}
+}
+
+.pro {
+    display: none;
+}
+
+.tom {
+    animation: fadeIn 5s ease;
+}
+
+.texto5 {
+    border: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 5%;
+    left: 50%;
+    font-size: 60px;
+}
+
+.texto6 {
+    border: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 13%;
+    left: 50%;
+    font-size: 60px;
+}
+
+.logo3 {
+    position: relative;
+    display: block;
+    border: 0;
+    margin-left: 280px;
+    margin-top: -750px;
+    width: 700px;
+    height: 700px;
+}
+
+.ticket1 {
+    position: relative;
+    display: block;
+    border: 0;
+    margin-left: 110vh;
+    margin-top: -60vh;
+    width: 250px;
+    height: 400px;
+}
+
+.texto7 {
+    border: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 85%;
+    left: 50%;
+    font-size: 50px;
+    animation: breathingEffect 2s infinite;
+}
+
+.nub {
+    display: none;
+}
+
+.toma {
+    animation: fadeIn 5s ease;
+}
+
+.texto8 {
+    border: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 6%;
+    left: 50%;
+    font-size: 60px;
+}
+
+.texto9 {
+    border: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 13%;
+    left: 50%;
+    font-size: 60px;
+}
+
+.logo4 {
+    position: relative;
+    display: block;
+    border: 0;
+    margin-left: 280px;
+    margin-top: -750px;
+    width: 700px;
+    height: 700px;
+    animation: fadeIn 5s ease;
+}
+
+.ticket2 {
+    position: relative;
+    display: block;
+    border: 0;
+    margin-left: 110vh;
+    margin-top: -60vh;
+    width: 250px;
+    height: 400px;
+}
+
+.texto10 {
+    border: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:#00DDFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    top: 85%;
+    left: 50%;
+    font-size: 50px;
+    animation: breathingEffect 2s infinite;
+}
+
+@keyframes breathingEffect {
+    0% { opacity: 0.2;}
+    50% { opacity: 1;}
+    100% { opacity: 0.2;}
+}
